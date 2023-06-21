@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <title>Calculadora</title>
+
+</head>
+
+<body>
+  <div class="calculadora">
+    <h1 class="titulo">Calculadora</h1>
+    <div class="resultado">
+      <input type="text" id="resultado" disabled>
+    </div>
+    <div class="botao">
+      <button onclick="limparResultado()">C</button>
+      <button onclick="valorAnexado(7)">7</button>
+      <button onclick="valorAnexado(8)">8</button>
+      <button onclick="valorAnexado(9)">9</button>
+      <button onclick="valorAnexado('+')">+</button>
+      <button onclick="valorAnexado(4)">4</button>
+      <button onclick="valorAnexado(5)">5</button>
+      <button onclick="valorAnexado(6)">6</button>
+      <button onclick="valorAnexado('-')">-</button>
+      <button onclick="valorAnexado(1)">1</button>
+      <button onclick="valorAnexado(2)">2</button>
+      <button onclick="valorAnexado(3)">3</button>
+      <button onclick="valorAnexado('*')">*</button>
+      <button onclick="valorAnexado(0)">0</button>
+      <button onclick="valorAnexado('.')">.</button>
+      <button onclick="calculandoResultado()">=</button>
+      <button onclick="valorAnexado('/')">/</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
